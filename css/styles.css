@@ -54,3 +54,41 @@ body{
 .main__logo{
     margin: 0 auto;
 }
+
+.main__controls{
+    grid-area: main;
+    align-self: end;
+    justify-self: end;
+    background-color: var(--black);
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main__control{
+    height: 40%;
+}
+
+.main__tile{
+    color: var(--black);
+}
+
+.main__paragraph{
+    line-height: 1.5;
+    margin: 1em 0 2em;
+    color: var(--dark-gray);
+}
+
+.main__cta{
+    text-decoration: none;
+    color: var(--very-dark-gray);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.main__arrow{
+    margin-left: 20px;
+}
+
